@@ -1,0 +1,124 @@
+/* --- Reset --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+
+}
+
+/* --- Variables --- */
+
+#navbar {
+    background-color: #000000;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 48px;
+    font-size: 20px
+}
+
+.navbarblocks {
+    display: flex;
+    align-items: center;
+}
+
+.navbarblocks:first-child div {
+    padding: 0 10px;
+}
+
+
+#firstchild {  /*.navbarblocks:first-child div:first-child*/
+    border-right: 1px solid white;
+}
+
+
+
+#footer {
+    background-color: #000000;
+    color: #fff;
+}
+
+
+#submit {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background-color: #191a1b;
+    color: #fff;
+    padding: 3px 15px;  
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#signin {
+    background-color: #4C5FD5;
+    border-radius: 6px;
+    padding: 3px 15px;
+    border: 1px solid #4C5FD5;
+    color: #fff;
+}
+
+#header {
+    background-color: #dadbf1;
+    display: flex;
+    justify-content: center;
+    padding: 100px 130px;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px 32px;
+    
+}
+
+#arrow {
+    position: absolute;
+    right: 8px;
+    
+   /* top: 50%;
+    transform: translateY(-50%); felével visszatolja középre*/
+}
+
+#search-input-container {
+    position: relative;
+    
+}
