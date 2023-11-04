@@ -114,8 +114,8 @@ input {
     position: absolute;
     right: 8px;
     
-   /* top: 50%;
-    transform: translateY(-50%); felével visszatolja középre*/
+   top: 50%;
+    transform: translateY(-50%); /*felével visszatolja középre*/
 }
 
 #search-input-container {
